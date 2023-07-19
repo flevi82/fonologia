@@ -1125,7 +1125,7 @@ footer {
 .gifContenedorAmimir {
   margin-top: -100px;
   margin-left: 50px;
-  background-image: url(../img/comp5.gif);
+  background-image: url(../img/Comp5.gif);
   height: 550px;
   width: 550px;
   background-size: cover;
@@ -1148,8 +1148,8 @@ footer {
 }
 
 .delBosqueGif {
+  background-image: url(../img/Comp4.gif);
   margin-top: -50px;
-  background-image: url(../img/comp4.gif);
   height: 400px;
   width: 650px;
   background-size: cover;
