@@ -42,7 +42,11 @@
 
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
+
+    .navbar{
+        width: 100%;
+    }
 
     #botonera{
         flex-direction: column;

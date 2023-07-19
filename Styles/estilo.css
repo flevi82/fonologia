@@ -39,7 +39,10 @@
   margin-top: -150px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .navbar {
+    width: 100%;
+  }
   #botonera {
     flex-direction: column;
     align-items: center;
@@ -408,7 +411,7 @@ footer {
   margin-top: -10px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   footer {
     height: 160px;
     margin-top: 10px;
@@ -652,7 +655,7 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   .infoProducto {
     width: 100%;
   }
