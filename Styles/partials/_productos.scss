@@ -211,16 +211,22 @@
 
     .container-fluid-blanco1{
         height: 500px;
+        width: 100%;
+
       }
 
     .container-fluid-morado{
 
         height: 650px;
+        width: 100%;
+
       }
 
       .container-fluid-negro2{
         flex-direction: column-reverse;
         height: 650px;
+        width: 100%;
+
       }
 
       #columnainvertida{
@@ -230,28 +236,64 @@
     
     .imagenContenedor1{
         margin-top: -50px;
+        margin-left:30px ;
+        width: 350px;
+        height: 350px;
+
     }
 
     .imagenContenedor2{
         margin-top: 0px;
+        margin-left: 0px;
+        width: 350px;
+        height: 350px;
+
     }
 
     .imagenContenedor6{
         margin-top: 0px;
         margin-left: -20px;
         margin-bottom: 30px;
-        width: 500px;
-        height: 380px;
-    }
+        width: 400px;
+        height: 300px;
 
-    .imagenContenedor4{
-        margin-left: -35px;
-        margin-top: -180px;
         
     }
 
+    .imagenContenedor4{
+        margin-left: -20px;
+        margin-top: 30px;
+        width: 380px;
+        height: 250px;
+
+        
+    }
+
+    .imagenContenedor5{
+      margin-left: 0px;
+      width: 400px;
+      height: 350px;
+
+      
+  }
+
+  .textoContenedor3{
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.textoContenedor2{
+  margin-top: 0px;
+  width: 400px;
+
+
+}
+
     .textoContenedor6{
-        margin-top: -250px;
+        margin-top: -350px;
+        width: 400px;
+ 
 
     }
 
@@ -260,6 +302,7 @@
     #barraCategorias1{
         height: 90px !important;
         text-indent: 0pt !important; 
+
         
     }
 
@@ -269,11 +312,13 @@
 
     #divisorProd{
         margin-top: -150px;
+
     }
 
 
     .btn2{
         text-indent: 16pt !important; 
+
     
     }
  
@@ -283,6 +328,7 @@
         margin-top: 30px;
         margin-left: 0px;
         margin-right: 0px;
+
       }
     
       #columna2{
@@ -290,6 +336,7 @@
         margin-left: 0px;
         margin-right: 0px;
         height: 460px;
+
       }
 }
 
