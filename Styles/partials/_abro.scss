@@ -1,0 +1,66 @@
+#fondoAzulAbro{
+    background-color: rgb(51, 63, 87    );
+    height: 1400px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#abroLogo{
+    background-image: url(../img/abro-03.png);
+    background-size: cover;
+    margin-left: -100px;
+    width: 600px;
+    height: 450px;
+}
+
+.abroCaja{
+    background-image: url(../img/abro-06.png);
+    background-size: cover;
+    margin-left: -100px;
+    width: 420px;
+    height: 650px;   
+}
+
+.abroImagen2{
+    background-image: url(../img/abro-04.png);
+    background-size: cover;
+    margin-left: -100px;
+    margin-top: 380px;
+    width: 550px;
+    height: 250px;   
+}
+
+.textoAbro2{
+    margin-top: 380px;
+}
+
+@media only screen and (max-width: 575px){
+
+    #fondoAzulAbro{
+        height: 2000px;
+
+    }
+    #abroLogo{
+        width: 450px;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+    .abroCaja{
+
+        margin-left: 00px;
+        width: 420px;
+        height: 650px;   
+    }
+
+    .textoAbro2{
+        margin-top: -650px;
+    }
+
+    .abroImagen2{
+        margin-left: 00px;
+        margin-top: 1000px;
+        width: 500px;
+        height: 200px;   
+    }
+    }

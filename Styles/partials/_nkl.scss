@@ -1,0 +1,229 @@
+.fondoAzul{
+    background-color: rgb(9, 1, 56);
+    height: 3100px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#containerNKL{
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 30px;
+    display: flex;
+    width: 650px;
+    height: 200px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#nklLogo{
+    background-image: url(../img/kitlenguajelogo.png);
+    width: 700px;
+}
+
+#logoyLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkNKL{
+    font-size: x-large;
+}
+
+#nklActiv{
+    background-image: url(../img/kitlenguajeactiv.png);
+    width: 90%;
+    height: 300px;
+}
+
+#vinculosContenido{
+    margin-top: -150px;
+}
+
+#logoVinculo{
+    background-image: url(../img/vinculosLogo.png);
+    width: 300px;
+    height: 85px;
+    margin-bottom: -80px; 
+}
+
+#logoCausa{
+    background-image: url(../img/causaLogo.png);
+    width: 300px;
+    height: 85px;
+    margin-bottom: -80px; 
+    margin-top: 20px;
+}
+
+#logoMemo{
+    background-image: url(../img/memoLogo.png);
+    width: 300px;
+    height: 85px;
+    margin-bottom: -100px; 
+    margin-top: 10px;
+}
+
+#logoInterrog{
+    background-image: url(../img/interroglogo.png);
+    width: 400px;
+    height: 85px;
+    margin-bottom: -100px; 
+    margin-top: 10px;
+}
+
+#logoConceptos{
+    background-image: url(../img/conceptoslogo.png);
+    width: 400px;
+    height: 100px;
+    margin-bottom: -100px; 
+    margin-top: 10px;
+}
+
+.gif{
+    margin-top: -50px;
+    height: 400px;
+    width: 650px;
+    background-size: cover; 
+}
+
+.imagen{
+    margin-top: -50px;
+    height: 400px;
+    width: 650px;
+    background-size: cover; 
+}
+
+#gifVinculos{
+    background-image: url(../img/comp6.gif);
+    margin-left: -100px;
+    margin-bottom: -100px;
+    height: 500px;
+    width: 800px;
+}
+
+#gifCausa{
+    background-image: url(../img/comp7.gif);
+    margin-left: -100px;
+    margin-top: -150px;
+    height: 350px;
+    width: 800px;
+    
+}
+
+#imagenMemo{
+    background-image: url(../img/memoverbos.png);
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+#imagenInterrog{
+    background-image: url(../img/encabezadores.png);
+    margin-left: 50px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 600px;
+}
+
+#imagenConceptos{
+    background-image: url(../img/conceptos.png);
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    height: 420px;
+    width: 450px;
+}
+
+.textoContenedor{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#txtNegro{
+    color: white;
+    margin-bottom: -100px;
+    // outline: solid red 1px;
+}
+
+#txtBlanco{
+    color:black;
+    margin-bottom: -100px;
+}
+
+#filaBlanca{
+    margin-top: -10px;
+    background-color: white;
+}
+
+#filaNegra{
+    background-color: black;
+    height: 400px;
+    
+    
+}
+
+@media only screen and (max-width: 575px){
+    .fondoAzul{
+     height: 3800px;
+    }
+
+    #containerNKL{
+        height: 350px;
+    }
+
+    #nklLogo{
+        width: 450px;
+        height: 120px;
+        // outline: solid red 1px;
+    }
+
+    #nklActiv{
+        display: none;
+    }
+
+    #gifVinculos{
+        margin-top: -20px;
+        height: 400px;
+        width: 550px;
+    }
+
+    #imagenMemo{
+        margin-top: 100px;
+        height: 400px;
+        width: 400px;
+    }
+
+    #imagenInterrog{
+        height: 220px;
+        width: 500px;
+    }
+
+    #imagenConceptos{
+        margin-top: 80px;
+        height: 350px;
+        width: 350px;
+    }
+
+    #txtBlanco{
+        margin-bottom: 10px;
+        width: 450px;
+    }
+
+    #txtNegro{
+        margin-bottom: 10px;
+        width: 450px;
+    }
+
+    #filaNegra{
+        height: 700px;
+    }
+
+}

@@ -1,0 +1,103 @@
+#fondoGrisFuerte{
+    background-color:  rgb(187, 191, 189);
+    height: 1400px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#logoMonstruosGrande{
+    width: 500px;
+    height: 200px;
+
+}
+
+.monstruo{
+    background-image: url(../img/monstruos-04.png);
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 00px;  
+}
+
+#filaGrisOscuro{
+    background-color:rgb(35, 34, 38);
+    height: 500px;
+}
+
+
+
+.monstruosCaja{
+    background-image: url(../img/monstruos-03.png);
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+.monstruos1Imagen{
+    background-image: url(../img/monstruos-02.png);
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin-top: 0px;
+
+}
+
+
+#textoMonstruos1{
+    margin-top: 90px;
+    margin-left: -100px;
+    color: white;
+
+}
+
+#textoMonstruos2{
+    margin-top: 90px;
+    margin-left: -100px;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+    #fondoGrisFuerte{
+        height: 2400px;
+    }
+
+    #filaGrisOscuro{
+        height: 1000px;
+    }
+
+    .monstruosCaja{
+        margin-top: -40px;
+        margin-left: -40px;
+        width: 450px;
+        height: 450px;
+    }
+
+    #textoMonstruos1{
+        margin-top: 90px;
+        margin-left: 0px;
+    }
+
+    #textoMonstruos2{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .monstruos1Imagen{
+
+        width: 450px;
+        height: 430px;
+        margin-top: -50px;
+        margin-left: -20px;
+    
+    }
+
+  
+
+
+
+}

@@ -1,0 +1,315 @@
+.fondoVerde{
+    background-color: rgb(157, 210, 192);
+    height: 2850px;
+    width: 100%;
+    margin-top: -100px;
+    
+}
+
+#containerNKL{
+    flex-direction: column;
+    
+}
+
+.logo{
+    margin-top: 30px;
+    display: flex;
+    width: 650px;
+    height: 200px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nkfLogo{
+    background-image: url(../img/fonologo.png);
+    width: 1100px;
+    height: 300px;
+    margin-bottom: -80px;
+    
+}
+
+#logoyLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkNKL{
+    font-size: x-large;
+}
+
+#nkfActiv{
+    background-image: url(../img/logoNKF.png);
+    justify-content: center;
+    margin-left: 200px;
+    width: 70%;
+    height: 220px;
+    margin-top: -30px;
+    
+}
+
+#logoKt{
+    background-image: url(../img/ktlogo.png);
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#logoSemaforo{
+    background-image: url(../img/semaforologo.png);
+    width: 300px;
+    height: 300px;
+    margin-bottom: -80px; 
+    margin-top: 10px;
+}
+
+#logoVocales{
+    background-image: url(../img/vocaleslogo.png);
+    width: 300px;
+    height: 300px;
+    margin-bottom: -100px; 
+    margin-top: -10px;
+}
+
+#logoCalculadora{
+    background-image: url(../img/silabaslogo.png);
+    width: 300px;
+    height: 300px;
+    margin-bottom: -100px; 
+    margin-top: 10px;
+}
+
+#logoLrd{
+    background-image: url(../img/lrdlogo.png);
+    width: 400px;
+    height: 400px;
+    margin-bottom: -100px; 
+    margin-top: 10px;
+}
+
+.gif{
+    margin-top: -50px;
+    height: 400px;
+    width: 650px;
+    background-size: cover; 
+}
+
+.imagen{
+    margin-top: -50px;
+    height: 400px;
+    width: 650px;
+    background-size: cover; 
+}
+
+#gifKt{
+    background-image: url(../img/comp10.gif);
+    margin-left: -180px;
+    margin-top: -250px;
+    height: 500px;
+    width: 800px;
+}
+
+#gifSemaforo{
+    background-image: url(../img/comp8.gif);
+    margin-left: -100px;
+    margin-top: -250px;
+    height: 500px;
+    width: 800px;
+    
+}
+
+#imagenVocales{
+    background-image: url(../img/vocales.png);
+    margin-left: 50px;
+    margin-top: -50px;
+    height: 400px;
+    width: 500px;
+}
+
+#imagenCalculadora{
+    background-image: url(../img/silabas.png);
+    margin-left: 0px;
+    margin-top: -200px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 600px;
+}
+
+#imagenLrd{
+    background-image: url(../img/lrd.png);
+    margin-left: 50px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    height: 435px;
+    width: 380px;
+}
+
+.textoContenedor{
+    width: 600px;
+    justify-content: center;
+}
+
+#txtNegro{
+    color: white;
+    width: 400px;
+    margin-top: -150px;
+    margin-left: 100px;
+
+    // outline: solid red 1px;
+}
+
+#txtBlanco{
+    color:black;
+    width: 400px;
+    margin-top: -350px;
+    margin-left: 100px;
+}
+
+#filaBlanca{
+    margin-top: 0px;
+    height: 250px;
+    background-color: white;
+    // outline: solid red 1px;
+}
+
+#filaBlanca1{
+    margin-top: 0px;
+    height: 250px;
+    background-color: white;
+    // outline: solid red 1px;
+}
+
+#filaBlancaLogo{
+    height: 200px;
+    background-color: white;
+}
+
+#filaVerdeLogo{
+    height: 50px;
+    background-color:  rgb(157, 210, 192);
+}
+
+
+#filaNegra{
+    background-color: black;
+    height: 400px;
+    // margin-top: -100px;  
+}
+
+@media only screen and (max-width: 575px){
+    .fondoVerde{
+     height: 4450px;
+    }
+
+    #containerNKF{
+        height: 350px;
+    }
+
+    #nkfLogo{
+        width: 460px;
+        height: 130px;
+        margin-bottom: 0px;
+        // outline: solid red 1px;
+    }
+
+    #nkfActiv{
+        display: none;
+    }
+
+    #logoKt{
+        margin-top: -20px;
+    }
+
+    #logoVocales{
+        margin-top: -60px;
+    }
+
+    #logoCalculadora{
+        margin-top: -20px;
+    }
+
+    #logoLrd{
+        margin-top: -60px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #logoSemaforo{
+        margin-top: -20px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #gifKt{
+        margin-top: -20px;
+        height: 400px;
+        width: 550px;
+        margin-left: -120px;
+    }
+
+    #gifSemaforo{
+        background-image: url(../img/comp8.gif);
+        margin-left: -100px;
+        margin-top: 0px;
+        height: 400px;
+        width: 600px;
+        margin-bottom: 100px;
+        
+    }
+
+    #imagenVocales{
+        margin-top: 130px;
+        height: 400px;
+        width: 460px;
+        margin-left: -20px;
+    }
+
+    #imagenCalculadora{
+        margin-top: 30px;
+        height: 320px;
+        width: 410px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+
+    #imagenLrd{
+        margin-top: 30px;
+        height: 400px;
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    #txtBlanco{
+        margin-top: -150px;
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    #txtNegro{
+        margin-top: -150px;
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    #filaNegra{
+        height: 750px;
+    }
+
+    #filaBlanca{
+        height: 600px;
+        // outline: red solid 1px;
+    }
+
+    #filaBlanca1{
+        height: 400px;
+        // outline: red solid 1px;
+    }
+
+    #filaBlancaLogo{
+        height: 200px;
+  
+    }
+
+}

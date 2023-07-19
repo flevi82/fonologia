@@ -1,0 +1,99 @@
+#fondoVerdeOscuro{
+    background-color: rgb(3, 53, 35);
+    height: 1800px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#safariLogo{
+    background-image: url(../img/safarilogo.png);
+    background-size: cover;
+    width: 590px;
+    height: 300px;
+}
+
+.safariCaja{
+    background-image: url(../img/safaricaja.png);
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+
+.safariFoto{
+    background-image: url(../img/safari1.png);
+    margin-left: -250px;
+    margin-top: 0px;
+    height: 400px;
+    width: 650px;
+    background-size: cover;
+
+}
+
+#textoAncho{
+    display: flex;
+    width: 800px;
+    align-items: center;
+}
+
+.safariImagen{
+    background-image: url(../img/safari2.png);
+    background-size: cover;
+    height: 800px;
+    width: 950px;
+    margin-top: 00px;
+}
+
+#filaBlancaDB{
+    margin-top: 0px;
+    height: 250px;
+    background-color: white;
+    // outline: solid red 1px;
+}
+
+@media only screen and (max-width: 575px){
+#fondoVerdeOscuro{
+        height: 1550px;
+    }
+
+.safariCaja{
+        height: 400px;
+        width: 300px;
+        margin-top: 5px;
+    }
+
+    
+#safariLogo{
+
+        width: 480px;
+        height: 250px;
+    }
+
+.safariFoto{
+    display: none;
+}
+
+#textoAncho{
+    margin-top: 50px;
+    width: 500px;
+
+}
+
+.safariImagen{
+    margin-top: 150px;
+    height: 400px;
+    width: 450px;
+
+}
+
+#filaBlancaDB{
+    margin-top: -50px;
+    height: 300px;
+    background-color: white;
+    // outline: solid red 1px;
+}
+
+}

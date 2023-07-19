@@ -1,0 +1,113 @@
+#fondoAzul{
+    background-color: rgb(55, 73, 153 );
+    height: 1350px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.logoEstacion1{
+    background-image: url(../img/estacion-24.png);
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin-left: -350px;
+}
+
+.estacionCaja{
+    background-image: url(../img/estacion-19.png);
+    background-size: cover;  
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+#linkEstacion{
+    margin-left: -350px;
+    font-size: x-large;
+}
+
+.estacionImagen1{
+    background-image: url(../img/estacion-22.png);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.estacionImagen2{
+    background-image: url(../img/estacion-21.png);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: -100px;
+}
+
+.textoEstacion2{
+    margin-top: 0px;
+    width: 700px;
+}
+
+.textoEstacion1{
+    color: white;
+    margin-top: 300px;
+    width: 700px;
+    margin-left: -50px;
+    // outline: red solid 1px;
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+
+    #fondoAzul{
+        height: 2250px;
+    }
+
+
+#estacionEncabezado{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.logoEstacion1{
+    width: 500px;
+    height: 250px;
+    margin-left:0px;
+}
+
+#linkEstacion{
+    margin-left: 0px;
+    font-size: x-large;
+}
+
+.estacionCaja{ 
+    width: 200px;
+    height: 300px;
+    margin-top: -20px;
+}
+
+.estacionImagen1{
+    width: 350px;
+    height: 420px;
+    margin-top: -10px;
+}
+
+.textoEstacion1{
+    margin-top: 350px;
+    width: 450px;
+    // outline: red solid 1px;
+    margin-left: 0px;
+}
+
+.estacionImagen2{
+    background-image: url(../img/estacion-21.png);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+}

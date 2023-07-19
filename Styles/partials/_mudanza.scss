@@ -1,0 +1,74 @@
+#fondoVioleta{
+    background-color: rgb(33, 35, 46 );
+    height: 1400px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#mudanzaLogo{
+    background-image: url(../img/mudanzaLogo.png);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+}
+
+.mudanzaGif1{
+    background-image: url(../img/comp15.gif);
+    background-size: cover;
+    width: 800px;
+    height: 450px;
+    margin-left: -100px;
+}
+
+.mudanzaImagen{
+    background-image: url(../img/mudanza-04.png);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin-left: -100px;
+
+}
+
+
+
+
+.textoMudanza1{
+    margin-top: 250px;
+    margin-left: -100px;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+    #fondoVioleta{
+        height: 1800px;
+    }
+
+    #mudanzaLogo{
+        width: 450px;
+        height: 200px;
+    }
+
+    .mudanzaGif1{
+        width: 550px;
+        height: 350px;
+        // margin-left: -50px;
+    }
+
+
+    .mudanzaImagen{
+        margin-top: 0px;
+        margin-left: -30px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .textoMudanza1{
+        width: 450px;
+        margin-top:50px;
+        margin-left: 0px;
+    }
+
+}

@@ -1,0 +1,87 @@
+#fondoVerde{
+    background-color:  rgb(157, 210, 192);
+    height: 2000px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+#logoPaltGrande{
+    width: 600px;
+    height: 400px;
+    margin-left: 00px;
+    margin-bottom: -50px;
+
+}
+
+.nati{
+    background-image: url(../img/nati.png);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin-left: 00px;  
+}
+
+#filaVioleta{
+    background-color:rgb(123,101,170 );
+    height: 500px;
+}
+
+#filaBlancaAngosta{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#filaBlancaAngosta1{
+    margin-top: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+.paltaliCaja{
+    background-image: url(../img/paltalicaja.png);
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+    margin-left: -100px;
+}
+
+.paltali1Imagen{
+    background-image: url(../img/paltali1.png);
+    background-size: cover;
+    width: 800px;
+    height: 450px;
+    margin-top: 0px;
+
+}
+
+.paltali2Imagen{
+    background-image: url(../img/paltali2.png);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+
+}
+
+#textoPaltali{
+    margin-top: 120px;
+    margin-left: -100px;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+    #fondoVioleta{
+        height: 1800px;
+    }
+
+
+    .textoMudanza1{
+        width: 450px;
+        margin-top:50px;
+        margin-left: 0px;
+    }
+
+}

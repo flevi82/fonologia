@@ -1,0 +1,42 @@
+#selectLogo{
+    background-image: url(../img/selectlogo-02.png);
+    background-size: cover;
+    margin-top: -50px;
+    width: 700px;
+    height: 180px;
+}
+
+#cajaSelect{
+    background-image: url(../img/select-02.png);
+    background-size: cover;
+    margin-top: -50px;
+    width: 750px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.selectGif{
+    background-image: url(../img/comp18.gif);
+    background-size: cover;
+    margin-top: -100px;
+    width: 800px;
+    height: 360px;
+    margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 575px){
+    #selectLogo{
+        margin-top: -50px;
+        width: 420px;
+        height: 110px;
+    }
+
+    #cajaSelect{
+        margin-top: -50px;
+        width: 450px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+}

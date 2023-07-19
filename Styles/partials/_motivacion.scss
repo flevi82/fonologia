@@ -1,0 +1,169 @@
+#motivacion{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#containerMotivacion{
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+}
+
+#containerMotivacion1{
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+}
+
+#container-kawai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.gifContenedorAmimir{
+    margin-top: -100px;
+    margin-left: 50px;
+    background-image: url(../img/comp5.gif);
+    height: 550px;
+    width: 550px;
+    background-size: cover;   
+}
+
+.figurasKawai1{
+    margin-top: 50px;
+    background-image: url(../img/figurasKawai.png);
+    height: 620px;
+    width: 1060px;
+    background-size: cover;   
+}
+
+#textoKawai{
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    // outline: solid red 1px;
+}
+
+
+.delBosqueGif{
+    margin-top: -50px;
+    background-image: url(../img/comp4.gif);
+    height: 400px;
+    width: 650px;
+    background-size: cover;  
+
+}
+
+.imagenDelBosqueLogo{
+    margin-top: 30px;
+    background-image: url(../img/delbosquelogo.png);
+    height: 160px;
+    width: 650px;
+    background-size: cover;  
+}
+
+.kawaiLogo{
+    display: flex;
+    margin-top: 10px;
+    background-image: url(../img/kawaiLogo.png);
+    height: 120px;
+    width: 350px;
+    background-size: cover;  
+
+}
+
+
+
+.amimirLogo{
+    // margin-top: 30px;
+    background-image: url(../img/amimirLogo.png);
+    height: 160px;
+    width: 300px;
+    background-size: cover;  
+}
+
+
+
+.textoContenedorAmimir{
+    margin-top: -100px;
+    width: 550px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+
+  @media only screen and (max-width: 575px) {
+
+    .imagenDelBosqueLogo{
+        width: 450px;
+        height: 100px;
+    }
+
+    .delBosqueGif{
+        margin-top: 0px;
+        height: 250px;
+        width: 450px;
+    }
+
+    #motivacion{
+        margin-top: -50px;
+    }
+
+    #containerMotivacion{
+        height: 700px;
+    }
+
+    #containerMotivacion1{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .textoContenedorAmimir{
+        margin-top: 20px;
+        width: 400px;
+       
+    }
+
+    .gifContenedorAmimir{
+        margin-top: -80px;
+        height: 500px;
+        width: 500px;
+    }
+
+    #encabezadoKawai{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .kawaiLogo{
+        display: flex;
+        margin-left: 30px;
+    
+    }
+
+    #textoKawai{
+        width:450px;
+        // outline: solid red 1px;
+    }
+
+    .figurasKawai1{
+        margin-top: 30px;
+        margin-left: -10px;
+        height: 260px;
+        width: 450px;
+  
+    }
+
+    
+    }
+    
+
+
