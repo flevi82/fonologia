@@ -34,33 +34,33 @@
     margin-top: 380px;
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
 
     #fondoAzulAbro{
-        height: 2000px;
+        height: 1950px;
 
     }
     #abroLogo{
-        width: 450px;
-        height: 300px;
+        width: 380px;
+        height: 230px;
         margin-left: 0px;
     }
 
     .abroCaja{
 
         margin-left: 00px;
-        width: 420px;
-        height: 650px;   
+        width: 360px;
+        height: 530px;   
     }
 
     .textoAbro2{
-        margin-top: -650px;
+        margin-top: -550px;
     }
 
     .abroImagen2{
-        margin-left: 00px;
-        margin-top: 1000px;
-        width: 500px;
-        height: 200px;   
+        margin-left: -30px;
+        margin-top: 1010px;
+        width: 380px;
+        height: 150px;   
     }
     }

@@ -1926,7 +1926,7 @@ footer {
   height: 500px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   .fondoGris {
     height: 2450px;
   }
@@ -1934,7 +1934,7 @@ footer {
     height: 350px;
   }
   #nkmfsLogo {
-    width: 400px;
+    width: 380px;
     height: 250px;
     margin-top: 20px;
   }
@@ -1942,41 +1942,48 @@ footer {
     display: none;
   }
   #logoDqh {
-    margin-top: -10px;
+    margin-top: 10px;
+    width: 380px;
+    height: 170px;
   }
   #logoConstructor {
     margin-top: -20px;
+    width: 380px;
+    height: 170px;
   }
   #logoLicuado {
-    margin-top: -20px;
+    margin-top: 0px;
+    margin-left: -20px;
+    width: 380px;
+    height: 170px;
   }
   #imagenDqh {
     margin-top: -50px;
-    height: 400px;
-    width: 460px;
-    margin-left: -20px;
+    height: 310px;
+    width: 380px;
+    margin-left: -10px;
   }
   #imagenConstructor {
     margin-top: 100px;
-    height: 320px;
-    width: 420px;
-    margin-left: 10px;
+    height: 290px;
+    width: 380px;
+    margin-left: 0px;
     margin-bottom: 100px;
   }
   #imagenLicuado {
-    margin-top: 30px;
-    height: 170px;
-    width: 450px;
+    margin-top: -30px;
+    height: 140px;
+    width: 380px;
     margin-left: 0px;
   }
   #txtBlanco {
     margin-top: -150px;
-    width: 450px;
+    width: 380px;
     margin-left: 0px;
   }
   #txtNegro {
     margin-top: -150px;
-    width: 450px;
+    width: 380px;
     margin-left: 0px;
   }
   #filaNegra {
@@ -2190,6 +2197,12 @@ footer {
   align-items: center;
 }
 
+#textoAnchoMimir {
+  display: flex;
+  width: 85%;
+  align-items: center;
+}
+
 .aMimirTarjetas {
   background-image: url(../img/amimircartas.png);
   background-size: cover;
@@ -2203,15 +2216,20 @@ footer {
   margin-top: 150px;
 }
 
+.textoMimir2 {
+  color: white;
+  margin-top: 150px;
+}
+
 #filaBlancaDB {
   margin-top: 0px;
   height: 250px;
   background-color: white;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   #fondoVerdoso {
-    height: 1800px;
+    height: 2000px;
   }
   .aMimirCaja {
     height: 300px;
@@ -2222,18 +2240,18 @@ footer {
     width: 350px;
     height: 200px;
   }
-  #textoAncho {
-    margin-top: 20px;
-    width: 500px;
-  }
   .aMimirTarjetas {
-    width: 500px;
-    height: 200px;
+    width: 380px;
+    height: 170px;
+    margin-top: 150px;
+  }
+  .textoMimir2 {
+    color: white;
     margin-top: 80px;
   }
   .almohadas {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 380px;
     margin-left: -40px;
   }
   #filaBlancaDB {
@@ -2378,8 +2396,8 @@ footer {
   .estacionImagen2 {
     background-image: url(../img/estacion-21.png);
     background-size: cover;
-    width: 600px;
-    height: 400px;
+    width: 380px;
+    height: 300px;
     margin-top: 0px;
     margin-left: 0px;
   }
@@ -2805,33 +2823,34 @@ footer {
   background-color: white;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   #fondoVerdosoDinos {
     height: 2300px;
   }
   .dinosLogo {
-    width: 450px;
-    height: 220px;
+    width: 380px;
+    height: 180px;
   }
-  #textoAncho {
-    margin-top: 20px;
-    width: 500px;
+  .dinosCaja {
+    margin-left: 0px;
+    height: 380px;
+    width: 380px;
+    background-size: cover;
   }
   .dinosImagen {
     margin-left: 0px;
     margin-top: 0px;
-    height: 400px;
-    width: 450px;
+    height: 300px;
+    width: 380px;
   }
   .dinosImagen2 {
-    height: 260px;
-    width: 450px;
-    margin-top: 380px;
+    height: 200px;
+    width: 380px;
+    margin-top: 550px;
     margin-bottom: 30px;
   }
   .textoDinos1 {
-    margin-top: 70px;
-    outline: solid red 1px;
+    margin-top: 150px;
   }
 }
 #fondoAmarilloColmena {
@@ -2883,27 +2902,30 @@ footer {
   margin-top: 180px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   #fondoAmarilloColmena {
     height: 2000px;
   }
   #colmenaLogo {
-    width: 480px;
+    width: 380px;
     height: 200px;
   }
+  .colmenaCaja {
+    margin-top: 15px;
+  }
   #colmenaImagen1 {
-    width: 500px;
+    width: 380px;
     height: 140px;
     margin-left: -30px;
   }
   .containerGifColmena {
-    height: 450px;
+    height: 380px;
     width: 600px;
-    margin-top: 700px;
-    margin-left: -200px;
+    margin-top: 750px;
+    margin-left: -150px;
   }
   .textoColmena2 {
-    margin-top: -1200px;
+    margin-top: -1050px;
   }
   #filaNegraColmena {
     height: 450px;
@@ -2935,16 +2957,24 @@ footer {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   #selectLogo {
     margin-top: -50px;
-    width: 420px;
-    height: 110px;
+    width: 380px;
+    height: 100px;
   }
   #cajaSelect {
-    margin-top: -50px;
-    width: 450px;
+    margin-top: -20px;
+    margin-left: -30px;
+    width: 380px;
     height: 300px;
+    margin-bottom: 20px;
+  }
+  .selectGif {
+    margin-top: -30px;
+    margin-left: -20px;
+    width: 380px;
+    height: 200px;
     margin-bottom: 20px;
   }
 }
@@ -2984,27 +3014,27 @@ footer {
   margin-top: 380px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
   #fondoAzulAbro {
-    height: 2000px;
+    height: 1950px;
   }
   #abroLogo {
-    width: 450px;
-    height: 300px;
+    width: 380px;
+    height: 230px;
     margin-left: 0px;
   }
   .abroCaja {
     margin-left: 0px;
-    width: 420px;
-    height: 650px;
+    width: 360px;
+    height: 530px;
   }
   .textoAbro2 {
-    margin-top: -650px;
+    margin-top: -550px;
   }
   .abroImagen2 {
-    margin-left: 0px;
-    margin-top: 1000px;
-    width: 500px;
-    height: 200px;
+    margin-left: -30px;
+    margin-top: 1010px;
+    width: 380px;
+    height: 150px;
   }
 }/*# sourceMappingURL=estilo.css.map */

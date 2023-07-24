@@ -38,6 +38,12 @@
     align-items: center;
 }
 
+#textoAnchoMimir{
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
 .aMimirTarjetas{
     background-image: url(../img/amimircartas.png);
     background-size: cover;
@@ -51,6 +57,11 @@
     margin-top: 150px;
 }
 
+.textoMimir2{
+    color: white;
+    margin-top: 150px;
+}
+
 #filaBlancaDB{
     margin-top: 0px;
     height: 250px;
@@ -58,10 +69,11 @@
     // outline: solid red 1px;
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
     #fondoVerdoso{
-        height: 1800px;
+        height: 2000px;
     }
+
 
     .aMimirCaja{
         height: 300px;
@@ -74,20 +86,21 @@
         height: 200px;
     }
 
-    #textoAncho{
-    margin-top: 20px;
-    width: 500px;
-    }
 
     .aMimirTarjetas{
-        width: 500px;
-        height: 200px;
+        width: 380px;
+        height: 170px;
+        margin-top: 150px;
+    }
+
+    .textoMimir2{
+        color: white;
         margin-top: 80px;
     }
 
     .almohadas{
-        height: 300px;
-        width: 500px;
+        height: 200px;
+        width: 380px;
         margin-left: -40px;
 
     
@@ -99,5 +112,7 @@
     background-color: white;
     // outline: solid red 1px;
     }
+
+
 
 }

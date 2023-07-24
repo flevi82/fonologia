@@ -68,39 +68,40 @@
     
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
     #fondoVerdosoDinos{
         height: 2300px;
     }
 
 
     .dinosLogo{
-        width: 450px;
-        height: 220px;
+        width: 380px;
+        height: 180px;
     }
 
-    #textoAncho{
-    margin-top: 20px;
-    width: 500px;
+    .dinosCaja{
+        margin-left: 0px;
+        height: 380px;
+        width: 380px;
+        background-size: cover;
     }
 
     .dinosImagen{
         margin-left: 0px;
         margin-top: 0px;
-        height: 400px;
-        width: 450px;
+        height: 300px;
+        width: 380px;
     }
 
     .dinosImagen2{
-        height: 260px;
-        width: 450px;
-        margin-top: 380px;
+        height: 200px;
+        width: 380px;
+        margin-top: 550px;
         margin-bottom: 30px;
     }
 
     .textoDinos1{
-        margin-top: 70px;
-        outline: solid red 1px;
+        margin-top: 150px;
     }
 
     
