@@ -59,40 +59,58 @@
 
 }
 
+#filaInversa {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+  }
 
-@media only screen and (max-width: 575px){
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
 
     #fondoGrisFuerte{
-        height: 2400px;
+        height: 2300px;
     }
 
     #filaGrisOscuro{
         height: 1000px;
     }
 
+
+    #logoMonstruosGrande{
+        width: 350px;
+        height: 130px;
+    
+    }
+
+    .monstruo{
+        height: 200px;
+        width: 180px;
+    }
+
     .monstruosCaja{
-        margin-top: -40px;
+        margin-top: -80px;
         margin-left: -40px;
-        width: 450px;
-        height: 450px;
+        width: 380px;
+        height: 380px;
     }
 
     #textoMonstruos1{
         margin-top: 90px;
         margin-left: 0px;
+
     }
 
     #textoMonstruos2{
-        margin-top: 0px;
+        margin-top: -800px;
         margin-left: 0px;
     }
 
     .monstruos1Imagen{
 
-        width: 450px;
-        height: 430px;
-        margin-top: -50px;
-        margin-left: -20px;
+        width: 380px;
+        height: 350px;
+        margin-top: 550px;
+        margin-left: 0px;
     
     }
 

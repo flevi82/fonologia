@@ -59,7 +59,7 @@
 
 
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
 
     #fondoAzul{
         height: 2250px;
@@ -72,8 +72,8 @@
 }
 
 .logoEstacion1{
-    width: 500px;
-    height: 250px;
+    width: 380px;
+    height: 200px;
     margin-left:0px;
 }
 

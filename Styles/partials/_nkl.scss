@@ -3,10 +3,12 @@
     height: 3100px;
     width: 100%;
     margin-top: -100px;
+    
 }
 
 #containerNKL{
     flex-direction: column;
+    
 }
 
 .logo{
@@ -17,31 +19,37 @@
     background-size: cover;
     justify-content: center;
     align-items: center;
+    
 }
 
 #nklLogo{
     background-image: url(../img/kitlenguajelogo.png);
     width: 700px;
+    
 }
 
 #logoyLink{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #linkNKL{
     font-size: x-large;
+    
 }
 
 #nklActiv{
     background-image: url(../img/kitlenguajeactiv.png);
     width: 90%;
     height: 300px;
+    
 }
 
 #vinculosContenido{
     margin-top: -150px;
+
 }
 
 #logoVinculo{
@@ -49,6 +57,7 @@
     width: 300px;
     height: 85px;
     margin-bottom: -80px; 
+    
 }
 
 #logoCausa{
@@ -147,15 +156,15 @@
     
 }
 
-#txtNegro{
+#txtNegroLenguaje{
     color: white;
     margin-bottom: -100px;
-    // outline: solid red 1px;
+ 
 }
 
-#txtBlanco{
+#txtBlancoLenguaje{
     color:black;
-    margin-bottom: -100px;
+    margin-top: -100px;
 }
 
 #filaBlanca{
@@ -170,7 +179,7 @@
     
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
     .fondoAzul{
      height: 3800px;
     }
@@ -180,8 +189,9 @@
     }
 
     #nklLogo{
-        width: 450px;
-        height: 120px;
+        width: 380px;
+        height: 110px;
+        margin-left: -70px;
         // outline: solid red 1px;
     }
 
@@ -191,19 +201,22 @@
 
     #gifVinculos{
         margin-top: -20px;
-        height: 400px;
-        width: 550px;
+        margin-left: -30px;
+        height: 280px;
+        width: 390px;
     }
 
     #imagenMemo{
         margin-top: 100px;
-        height: 400px;
-        width: 400px;
+        margin-left:0px ;
+        height: 380px;
+        width: 380px;
     }
 
     #imagenInterrog{
-        height: 220px;
-        width: 500px;
+        margin-left:10px ;
+        height: 200px;
+        width: 380px;
     }
 
     #imagenConceptos{
@@ -212,18 +225,22 @@
         width: 350px;
     }
 
-    #txtBlanco{
+    #txtBlancoLenguaje{
         margin-bottom: 10px;
-        width: 450px;
+        width: 380px;
     }
 
-    #txtNegro{
+    #txtNegroLenguaje{
         margin-bottom: 10px;
-        width: 450px;
+        width: 380px;
     }
 
     #filaNegra{
         height: 700px;
+    }
+
+    #vinculosContenido{
+        width: 380px;
     }
 
 }

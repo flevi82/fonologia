@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    
 }
 
 #containerMotivacion{
@@ -24,11 +25,11 @@
 
 
 .gifContenedorAmimir{
-    margin-top: -100px;
+    margin-top: -80px;
     margin-left: 50px;
     background-image: url(../img/Comp5.gif);
-    height: 550px;
-    width: 550px;
+    height: 500px;
+    width: 500px;
     background-size: cover;   
 }
 
@@ -47,6 +48,13 @@
     justify-content: center;
     width:800px;
     // outline: solid red 1px;
+}
+
+.dinosLogoMotiv{
+    background-image: url(../img/dinos-05.png);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
 }
 
 
@@ -74,42 +82,35 @@
     height: 120px;
     width: 350px;
     background-size: cover;  
-
 }
 
+    .dinosLogoMotiv{
+        background-image: url(../img/dinos-05.png);
+        width: 450px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    .textoContenedorAmimir{
+        margin-top: -100px;
+        width: 550px;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+       
+    }
 
 
-.amimirLogo{
-    // margin-top: 30px;
-    background-image: url(../img/amimirLogo.png);
-    height: 160px;
-    width: 300px;
-    background-size: cover;  
-}
-
-
-
-.textoContenedorAmimir{
-    margin-top: -100px;
-    width: 550px;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-   
-}
-
-
-
-  @media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
 
     .imagenDelBosqueLogo{
-        width: 450px;
-        height: 100px;
+        width: 400px;
+        height: 90px;
     }
 
     .delBosqueGif{
         margin-top: 0px;
-        height: 250px;
-        width: 450px;
+        height: 210px;
+        width: 400px;
     }
 
     #motivacion{
@@ -128,14 +129,14 @@
 
     .textoContenedorAmimir{
         margin-top: 20px;
-        width: 400px;
+        width: 380px;
        
     }
 
     .gifContenedorAmimir{
-        margin-top: -80px;
-        height: 500px;
-        width: 500px;
+        margin-top: 0px;
+        height: 300px;
+        width: 300px;
     }
 
     #encabezadoKawai{
@@ -150,16 +151,25 @@
     }
 
     #textoKawai{
-        width:450px;
+        width:380px;
         // outline: solid red 1px;
     }
 
     .figurasKawai1{
         margin-top: 30px;
         margin-left: -10px;
-        height: 260px;
-        width: 450px;
+        height: 200px;
+        width: 350px;
   
+    }
+
+    .textoContenedorDelBosque{
+        width: 380px;
+    }
+
+    .dinosLogoMotiv{
+        width: 350px;
+        height: 180px;
     }
 
     

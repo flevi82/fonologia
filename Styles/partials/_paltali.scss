@@ -24,6 +24,7 @@
 #filaVioleta{
     background-color:rgb(123,101,170 );
     height: 500px;
+    
 }
 
 #filaBlancaAngosta{
@@ -32,6 +33,30 @@
 }
 
 #filaBlancaAngosta1{
+    margin-top: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#filaBlancaPalt{
+
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#filaBlancaPalt1{
+
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#filaBlancaPalt2{
+
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#filaBlancaPalt3{
     margin-top: 400px;
     background-color: rgb(255, 255, 255);
     height: 50px;
@@ -67,21 +92,99 @@
     margin-top: 120px;
     margin-left: -100px;
     color: white;
+}
 
+#textoPaltali1{
+    margin-top: 100px;
+    margin-left: 0px;
+    color: white;
+}
+
+#textoPaltali2{
+    margin-top: 120px;
+    margin-left: -100px;
+    color: white;
 }
 
 
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px) and (max-width: 576px){
 
     #fondoVioleta{
-        height: 1800px;
+        height: 1000px;
     }
 
+    #fondoVerde{
+        height: 2900px;
+    }
 
-    .textoMudanza1{
-        width: 450px;
-        margin-top:50px;
+    #logoPaltGrande{
+        width: 400px;
+        height: 250px;
         margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: 20px;
     }
+
+    #textoPaltali{
+    width: 380px;
+    margin-left: 0px;
+    margin-top: 100px;
+    
+    }
+
+    #textoPaltali1{
+        margin-top: -620px;
+        margin-left: 0px;
+        color: white;
+
+    }
+
+    .paltaliCaja{
+
+        width: 400px;
+        height: 300px;
+        margin-top: 200px;
+        margin-left: 00px;
+    }
+
+ 
+
+    #textoPaltali2{
+        margin-top: 550px;
+        margin-left: 0px;
+        color: white;
+
+    }
+
+    .paltali1Imagen{
+
+        width: 400px;
+        height: 250px;
+        margin-top: 650px;
+    
+    }
+
+    .paltali2Imagen{
+
+        width: 300px;
+        height: 300px;
+        margin-top: 00px;
+    
+    }
+
+
+    #filaBlancaPalt1{
+        height: 0px;
+    }
+
+
+
+    #filaBlancaPalt3{
+        height: 0px;
+    }
+
+
+
+
 
 }
