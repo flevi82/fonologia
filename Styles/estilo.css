@@ -305,17 +305,17 @@ span {
     flex-wrap: wrap;
   }
   .subtexto {
-    width: 400px;
+    width: 380px;
     font-style: italic;
     text-align: center;
     align-items: center;
   }
   .imagen1 {
-    width: 450px;
+    width: 380px;
     height: auto;
   }
   .imagen2 {
-    width: 450px;
+    width: 380px;
     height: auto;
   }
   .imagen3 {
@@ -345,11 +345,15 @@ span {
   .row-txt1 {
     flex-direction: column-reverse;
   }
+  .parrafo {
+    width: 380px;
+  }
   .parrafo1 {
     align-items: center;
     margin-left: 0px;
     margin-top: 0px;
     color: #4f4c49;
+    width: 380px;
   }
   .parrafo2 {
     align-items: center;
@@ -357,9 +361,10 @@ span {
     margin-top: -900px;
     color: #4f4c49;
     font: size 0.5em;
+    width: 380px;
   }
   #botonMst {
-    margin-top: -750px;
+    margin-top: -770px;
   }
 }
 footer {
