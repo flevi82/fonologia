@@ -650,7 +650,7 @@ footer {
 
 .links {
   font-size: large;
-  width: 280px;
+  width: 350px;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -669,6 +669,10 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+#links1 {
+  margin-left: 0px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
@@ -3125,7 +3129,7 @@ footer {
 }
 
 .logoLoteria {
-  background-image: url(../img/FigurasLot.svg);
+  background-image: url(../img/figurasLot.svg);
   background-repeat: no-repeat;
   width: 350px;
   height: 110px;

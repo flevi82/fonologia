@@ -18,7 +18,6 @@
     background: rgb(36,48,96);
     background: linear-gradient(90deg, rgba(36,48,96,1) 0%, rgba(0,169,173,1) 48%, rgba(255,214,157,1) 80%);
     height: 450px;
-    // flex-direction: row;
   }
 
   .container-fluid-blanco1:hover{
@@ -92,6 +91,7 @@
     background-size: cover;
     
 }
+
 
 .imagenContenedor5{
     margin-top: -20px;
@@ -185,7 +185,7 @@
 
 .links {
     font-size: large;
-    width: 280px;
+    width: 350px;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -208,6 +208,10 @@
     display: flex;
     justify-content: center;
 
+}
+
+#links1{
+  margin-left: 0px;
 }
 
 
@@ -320,9 +324,6 @@
 
         
     }
-
-
-
 
 
     #divisorProd{
