@@ -13,7 +13,19 @@
     // flex-direction: row;
   }
 
+  .container-fluid-gradient{
+    margin-top: -50px;
+    background: rgb(36,48,96);
+    background: linear-gradient(90deg, rgba(36,48,96,1) 0%, rgba(0,169,173,1) 48%, rgba(255,214,157,1) 80%);
+    height: 450px;
+    // flex-direction: row;
+  }
+
   .container-fluid-blanco1:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .container-fluid-gradient:hover{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
@@ -66,12 +78,9 @@
 
 
 .imagenContenedor1{
-    margin-top: -100px;
-    background-image: url(../img/sopalogo.png);
-    height: 400px;
-    width: 400px;
-    background-size: cover;
-    
+  width: 500px;
+  height: 500px;
+  // outline: 1px solid red;
 }
 
 .imagenContenedor2{
@@ -215,6 +224,12 @@
 
       }
 
+      .container-fluid-gradient{
+        height: 550px;
+        width: 100%;
+
+      }
+
     .container-fluid-morado{
 
         height: 650px;
@@ -235,7 +250,7 @@
       }
     
     .imagenContenedor1{
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left:30px ;
         width: 350px;
         height: 350px;

@@ -1,0 +1,215 @@
+.kawaiLogoGrande{
+    display: flex;
+    margin-top: 10px;
+    background-image: url(../img/kawaiLogo.png);
+    height: 200px;
+    width: 650px;
+    background-size: cover;  
+}
+
+#filaGradient{
+    background: rgb(36,48,96);
+    background: linear-gradient(90deg, rgba(36,48,96,1) 0%, rgba(0,169,173,1) 48%, rgba(255,214,157,1) 80%);
+    height: 450px;
+    margin-top: -150px;
+    outline: 10px solid black;
+}
+
+.links {
+    font-size: x-large;
+    margin-left: 300px;
+}
+
+
+.linkBlanco{
+    color: white;
+}
+
+#kawaiIconos{
+    background-image: url(../img/figurasIconos.svg);
+    width: 600px;
+    height: 130px;
+}
+
+.loteriaImagen{
+    background-image: url(../img/FigurasLoteriaMemo.svg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin-top: -180px;
+}
+
+#columnaDoble{
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+.logoLoteria{
+    background-image: url(../img/FigurasLot.svg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 110px;
+}
+
+.logoMemo{
+    background-image: url(../img/FigurasMemo.svg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 150px;
+}
+
+#textoLoto{
+    margin-top: -40px;
+}
+
+#logoPist{
+    background-image: url(../img/FigurasPist.svg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 110px;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+#figurasPistas{
+    background-image: url(../img/FigurasPistas.svg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+#logoCualEs{
+    background-image: url(../img/FigurasCual.svg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 110px;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+#figurasCualEs{
+    background-image: url(../img/FigurasCualEs.svg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+}
+
+#logoPix{
+    background-image: url(../img/FigurasPix.svg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 110px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+
+}
+
+#imagenPix{
+    background-image: url(../img/FigurasMrPix.svg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .kawaiLogoGrande{
+        margin-top: 10px;
+        height: 130px;
+        width: 380px;
+    }
+
+    .links {
+        margin-left: 0px;
+    }
+
+    #kawaiIconos{
+        background-image: url(../img/figurasIconos.svg);
+        width: 380px;
+        height: 70px;
+    }
+
+    #columnaDoble{
+        margin-left: 0px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .logoLoteria{
+        width: 280px;
+        height: 85px;
+    }
+    
+    .logoMemo{
+        width: 380px;
+        height: 80px;
+    }
+
+    #textoLoto{
+        width: 380px;
+    }
+
+    .loteriaImagen{
+        width: 380px;
+        height: 380px;
+        margin-top: 0px;
+    }
+
+    #filaGradient{
+        height: 650px;
+        margin-top: 30px;
+    }
+
+    #logoPist{
+        width: 280px;
+        height: 85px;
+        margin-top: 100px;
+        margin-bottom: -100px;
+        margin-left: 0px;
+    }
+
+    #figurasPistas{
+        width: 380px;
+        height: 380px;
+        margin-top: 80px;
+    }
+
+    .textoContenedor{
+        width: 380px;
+    }
+
+    #logoCualEs{
+        width: 280px;
+        height: 85px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    #figurasCualEs{
+        width: 380px;
+        height: 380px;
+        margin-top: -20px;  
+    }
+
+    #logoPix{
+        width: 280px;
+        height: 85px;
+        margin-left: 0px;
+        margin-bottom: -100px;
+    
+    }
+
+    #imagenPix{
+        width: 280px;
+        height: 280px;
+        margin-left: 80px;
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+}
