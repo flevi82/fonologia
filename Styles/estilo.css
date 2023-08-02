@@ -997,7 +997,7 @@ footer {
 .gifContenedorPalt {
   margin-top: 0px;
   margin-bottom: -70px;
-  background-image: url(../img/Comp2.gif);
+  background-image: url(../img/comp2.gif);
   height: 450px;
   width: 800px;
   background-size: cover;
@@ -1441,7 +1441,7 @@ footer {
 }
 
 #imagenInterrog {
-  background-image: url(../img/encabezadores.png);
+  background-image: url(../img/Encabezadores.png);
   margin-left: 50px;
   margin-top: -100px;
   margin-bottom: 30px;
@@ -1450,7 +1450,7 @@ footer {
 }
 
 #imagenConceptos {
-  background-image: url(../img/conceptos.png);
+  background-image: url(../img/Conceptos.png);
   margin-left: 50px;
   margin-top: -30px;
   margin-bottom: 30px;
@@ -3097,7 +3097,7 @@ footer {
   outline: 10px solid black;
 }
 
-.links {
+.linksKawai {
   font-size: x-large;
   margin-left: 300px;
 }
@@ -3203,7 +3203,7 @@ footer {
     height: 130px;
     width: 380px;
   }
-  .links {
+  .linksKawai {
     margin-left: 0px;
   }
   #kawaiIconos {
